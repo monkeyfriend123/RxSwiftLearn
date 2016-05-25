@@ -17,6 +17,8 @@
 		4B0891F91CF3F0A3004DD97D /* VariableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0891F71CF3F0A3004DD97D /* VariableViewController.xib */; };
 		4B0891FC1CF3FF0A004DD97D /* CustomObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0891FA1CF3FF0A004DD97D /* CustomObservableViewController.swift */; };
 		4B0891FD1CF3FF0A004DD97D /* CustomObservableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0891FB1CF3FF0A004DD97D /* CustomObservableViewController.xib */; };
+		4B16B6F21CF538D400F5E44A /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16B6F01CF538D400F5E44A /* KVOViewController.swift */; };
+		4B16B6F31CF538D400F5E44A /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B16B6F11CF538D400F5E44A /* KVOViewController.xib */; };
 		4B3E04031CF4674700CB1A42 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04011CF4674700CB1A42 /* PagesViewController.swift */; };
 		4B3E04041CF4674700CB1A42 /* PagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E04021CF4674700CB1A42 /* PagesViewController.xib */; };
 		4B4AC9E51CF2960800E9227C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC9E41CF2960800E9227C /* AppDelegate.swift */; };
@@ -49,6 +51,8 @@
 		4B0891F71CF3F0A3004DD97D /* VariableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VariableViewController.xib; sourceTree = "<group>"; };
 		4B0891FA1CF3FF0A004DD97D /* CustomObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomObservableViewController.swift; sourceTree = "<group>"; };
 		4B0891FB1CF3FF0A004DD97D /* CustomObservableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomObservableViewController.xib; sourceTree = "<group>"; };
+		4B16B6F01CF538D400F5E44A /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
+		4B16B6F11CF538D400F5E44A /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
 		4B3E04011CF4674700CB1A42 /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
 		4B3E04021CF4674700CB1A42 /* PagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagesViewController.xib; sourceTree = "<group>"; };
 		4B4AC9E11CF2960800E9227C /* RxSwiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +154,8 @@
 				4B0891FB1CF3FF0A004DD97D /* CustomObservableViewController.xib */,
 				4B3E04011CF4674700CB1A42 /* PagesViewController.swift */,
 				4B3E04021CF4674700CB1A42 /* PagesViewController.xib */,
+				4B16B6F01CF538D400F5E44A /* KVOViewController.swift */,
+				4B16B6F11CF538D400F5E44A /* KVOViewController.xib */,
 			);
 			name = RxList;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B16B6F31CF538D400F5E44A /* KVOViewController.xib in Resources */,
 				4B0891FD1CF3FF0A004DD97D /* CustomObservableViewController.xib in Resources */,
 				4B0891F91CF3F0A3004DD97D /* VariableViewController.xib in Resources */,
 				4B0891F01CF2E579004DD97D /* ConcatViewController.xib in Resources */,
@@ -298,6 +305,7 @@
 				4B4AC9F91CF299B300E9227C /* EmptyViewController.swift in Sources */,
 				4B4ACA091CF2D17700E9227C /* CombineLatestViewController.swift in Sources */,
 				4B4ACA051CF2D07A00E9227C /* StartWithViewController.swift in Sources */,
+				4B16B6F21CF538D400F5E44A /* KVOViewController.swift in Sources */,
 				4B4AC9E71CF2960800E9227C /* ViewController.swift in Sources */,
 				4B0891EB1CF2D910004DD97D /* ZipViewController.swift in Sources */,
 				4B4AC9E51CF2960800E9227C /* AppDelegate.swift in Sources */,

@@ -22,7 +22,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.title = "RxSwift"
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: CellIdentity)
         
-        self.dataList = ["Empty","Never","Just","Start With","CombineLatested","Zip","Concat","RxCocoa","Variable","CustomObservable","Pages"]
+        self.dataList = ["Empty","Never","Just","Start With","CombineLatested","Zip","Concat","RxCocoa","Variable","CustomObservable","Pages","KVO"]
         
         self.reloadData()
         
@@ -102,6 +102,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             self.navigationController?.pushViewController(vc, animated: true)
         case 10:
             let vc = PagesViewController()
+            vc.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 11:
+            let vc = KVOViewController()
             vc.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(vc, animated: true)
         default: break

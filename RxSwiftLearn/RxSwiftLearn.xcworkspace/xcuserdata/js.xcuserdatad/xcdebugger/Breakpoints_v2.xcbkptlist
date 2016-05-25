@@ -19,5 +19,69 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
+            timestampString = "485833449.393428"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "observeWeaklyKeyPathFor(_:keyPath:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
+            timestampString = "485833456.897437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "observeWeaklyKeyPathFor(_:keyPathSections:options:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxCocoa.observeWeaklyKeyPathFor (__ObjC.NSObject, keyPathSections : Swift.Array&lt;Swift.String&gt;, options : __C.NSKeyValueObservingOptions) -&gt; RxSwift.Observable&lt;Swift.Optional&lt;Swift.AnyObject&gt;&gt;"
+                  moduleName = "RxCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/js/develop/RxSwiftLearn/RxSwiftLearn/Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
+                  timestampString = "485840056.100961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RxCocoa.(observeWeaklyKeyPathFor (__ObjC.NSObject, keyPathSections : Swift.Array&lt;Swift.String&gt;, options : __C.NSKeyValueObservingOptions) -&gt; RxSwift.Observable&lt;Swift.Optional&lt;Swift.AnyObject&gt;&gt;).(closure #1)"
+                  moduleName = "RxCocoa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/js/develop/RxSwiftLearn/RxSwiftLearn/Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
+                  timestampString = "485840056.101079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
