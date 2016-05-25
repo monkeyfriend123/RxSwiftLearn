@@ -24,6 +24,7 @@ class Config: NSObject{
 class KVOViewController: UIViewController {
 
     var config: Config = Config(flag: false)
+    var config2: Config = Config(flag: true)
     var disposable: Disposable?
     var bag: DisposeBag?
     
@@ -41,6 +42,10 @@ class KVOViewController: UIViewController {
         bag = DisposeBag()
         disposable?.addDisposableTo(bag!)
         
+        self.config2.rx_observe(Bool.self, "flag").subscribeNext { (f) in
+            print(f ?? false)
+        }.addDisposableTo(bag!)
+
         
         _ = self.button?.rx_controlEvent(.TouchUpInside).asObservable().subscribeNext({[unowned self] in
             self.config.flag = !self.config.flag
