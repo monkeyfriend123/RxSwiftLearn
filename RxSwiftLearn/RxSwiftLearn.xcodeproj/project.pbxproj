@@ -19,6 +19,8 @@
 		4B0891FD1CF3FF0A004DD97D /* CustomObservableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0891FB1CF3FF0A004DD97D /* CustomObservableViewController.xib */; };
 		4B16B6F21CF538D400F5E44A /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16B6F01CF538D400F5E44A /* KVOViewController.swift */; };
 		4B16B6F31CF538D400F5E44A /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B16B6F11CF538D400F5E44A /* KVOViewController.xib */; };
+		4B16B73F1CF6964600F5E44A /* OptionSetTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B16B73D1CF6964600F5E44A /* OptionSetTypeViewController.xib */; };
+		4B16B7401CF6964600F5E44A /* OptionSetTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16B73E1CF6964600F5E44A /* OptionSetTypeViewController.swift */; };
 		4B3E04031CF4674700CB1A42 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E04011CF4674700CB1A42 /* PagesViewController.swift */; };
 		4B3E04041CF4674700CB1A42 /* PagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E04021CF4674700CB1A42 /* PagesViewController.xib */; };
 		4B4AC9E51CF2960800E9227C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC9E41CF2960800E9227C /* AppDelegate.swift */; };
@@ -53,6 +55,8 @@
 		4B0891FB1CF3FF0A004DD97D /* CustomObservableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomObservableViewController.xib; sourceTree = "<group>"; };
 		4B16B6F01CF538D400F5E44A /* KVOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
 		4B16B6F11CF538D400F5E44A /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		4B16B73D1CF6964600F5E44A /* OptionSetTypeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionSetTypeViewController.xib; sourceTree = "<group>"; };
+		4B16B73E1CF6964600F5E44A /* OptionSetTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSetTypeViewController.swift; sourceTree = "<group>"; };
 		4B3E04011CF4674700CB1A42 /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
 		4B3E04021CF4674700CB1A42 /* PagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagesViewController.xib; sourceTree = "<group>"; };
 		4B4AC9E11CF2960800E9227C /* RxSwiftLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +101,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4B16B73C1CF6960600F5E44A /* SwiftLearn */ = {
+			isa = PBXGroup;
+			children = (
+				4B16B73D1CF6964600F5E44A /* OptionSetTypeViewController.xib */,
+				4B16B73E1CF6964600F5E44A /* OptionSetTypeViewController.swift */,
+			);
+			path = SwiftLearn;
+			sourceTree = "<group>";
+		};
 		4B4AC9D81CF2960700E9227C = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,7 @@
 		4B4AC9E31CF2960800E9227C /* RxSwiftLearn */ = {
 			isa = PBXGroup;
 			children = (
+				4B16B73C1CF6960600F5E44A /* SwiftLearn */,
 				4B4AC9F61CF2996700E9227C /* RxList */,
 				4B4AC9E41CF2960800E9227C /* AppDelegate.swift */,
 				4B4AC9E61CF2960800E9227C /* ViewController.swift */,
@@ -235,6 +249,7 @@
 				4B0891F01CF2E579004DD97D /* ConcatViewController.xib in Resources */,
 				4B4ACA021CF2AC3A00E9227C /* JustViewController.xib in Resources */,
 				4B4ACA0A1CF2D17700E9227C /* CombineLatestViewController.xib in Resources */,
+				4B16B73F1CF6964600F5E44A /* OptionSetTypeViewController.xib in Resources */,
 				4B3E04041CF4674700CB1A42 /* PagesViewController.xib in Resources */,
 				4B4AC9FE1CF29B8500E9227C /* NeverViewController.xib in Resources */,
 				4B4AC9EF1CF2960800E9227C /* LaunchScreen.storyboard in Resources */,
@@ -304,6 +319,7 @@
 			files = (
 				4B4AC9F91CF299B300E9227C /* EmptyViewController.swift in Sources */,
 				4B4ACA091CF2D17700E9227C /* CombineLatestViewController.swift in Sources */,
+				4B16B7401CF6964600F5E44A /* OptionSetTypeViewController.swift in Sources */,
 				4B4ACA051CF2D07A00E9227C /* StartWithViewController.swift in Sources */,
 				4B16B6F21CF538D400F5E44A /* KVOViewController.swift in Sources */,
 				4B4AC9E71CF2960800E9227C /* ViewController.swift in Sources */,

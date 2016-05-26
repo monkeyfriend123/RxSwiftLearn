@@ -45,6 +45,8 @@ class RxCocoaViewController: UIViewController {
             print($0)
         }
         
+        ///只会复制，不会出发rx_text 的observer 执行
+        self.textField.rx_text.on(.Next("Hello"))
         
     }
 
