@@ -58,7 +58,7 @@
                   moduleName = "RxCocoa"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/js/develop/RxSwiftLearn/RxSwiftLearn/Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
-                  timestampString = "485921286.584583"
+                  timestampString = "486634212.008251"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "95"
@@ -73,7 +73,7 @@
                   moduleName = "RxCocoa"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/js/develop/RxSwiftLearn/RxSwiftLearn/Pods/RxCocoa/RxCocoa/Common/Observables/Implementations/KVOObservable.swift"
-                  timestampString = "485921286.584694"
+                  timestampString = "486634212.00843"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "95"
@@ -81,70 +81,6 @@
                   offsetFromSymbolStart = "29">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/RxSwift/RxSwift/Observables/Implementations/AnonymousObservable.swift"
-            timestampString = "485920918.288639"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "run(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/RxSwift/RxSwift/Observables/Implementations/AnonymousObservable.swift"
-            timestampString = "485920920.166601"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "init(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/RxSwift/RxSwift/Observables/Implementations/AnonymousObservable.swift"
-            timestampString = "485920921.426852"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "run(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/RxSwift/RxSwift/Observables/Implementations/Producer.swift"
-            timestampString = "485920975.169287"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "subscribe(_:)"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

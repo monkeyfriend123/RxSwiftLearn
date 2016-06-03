@@ -8,5 +8,9 @@ target 'RxSwiftLearn' do
     pod 'RxCocoa',    '~> 2.0'
     pod 'Alamofire', '~> 3.4.0'
     pod 'ObjectMapper', '~> 1.3.0'
+    pod 'SwiftyJSON', '~> 2.3.2'
+    pod 'CryptoSwift'
+    pod 'AlamofireObjectMapper', '~> 3.0'
+    pod 'FMDB', '~> 2.6.2'
 end
 
