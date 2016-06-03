@@ -35,6 +35,7 @@ class KVOViewController: UIViewController {
         
         self.title = "KVO"
         
+        
         disposable = self.config.rx_observe(Bool.self, "flag").subscribeNext { (f) in
             print(f ?? false)
         }

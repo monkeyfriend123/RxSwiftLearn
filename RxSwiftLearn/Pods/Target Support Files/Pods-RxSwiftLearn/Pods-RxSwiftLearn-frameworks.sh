@@ -85,13 +85,21 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-RxSwiftLearn/Alamofire.framework"
+  install_framework "Pods-RxSwiftLearn/AlamofireObjectMapper.framework"
+  install_framework "Pods-RxSwiftLearn/CryptoSwift.framework"
+  install_framework "Pods-RxSwiftLearn/FMDB.framework"
   install_framework "Pods-RxSwiftLearn/ObjectMapper.framework"
   install_framework "Pods-RxSwiftLearn/RxCocoa.framework"
   install_framework "Pods-RxSwiftLearn/RxSwift.framework"
+  install_framework "Pods-RxSwiftLearn/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-RxSwiftLearn/Alamofire.framework"
+  install_framework "Pods-RxSwiftLearn/AlamofireObjectMapper.framework"
+  install_framework "Pods-RxSwiftLearn/CryptoSwift.framework"
+  install_framework "Pods-RxSwiftLearn/FMDB.framework"
   install_framework "Pods-RxSwiftLearn/ObjectMapper.framework"
   install_framework "Pods-RxSwiftLearn/RxCocoa.framework"
   install_framework "Pods-RxSwiftLearn/RxSwift.framework"
+  install_framework "Pods-RxSwiftLearn/SwiftyJSON.framework"
 fi
